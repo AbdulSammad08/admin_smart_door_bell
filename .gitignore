@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+build/
+dist/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# Upload directories
+uploads/
+receipts/
+
+# Test files (keep the important ones, ignore temporary test files)
+backend/test*.js
+backend/fullDiagnostic.js
+backend/testConnection.js
+backend/testLogin.js
+backend/testAdminCreation.js
+backend/testServerEndpoints.js
+backend/testLoginSimple.js
+backend/testActualLogin.js
+backend/create-working-admin.js
+backend/restart-server.bat
+
+# Package lock files (optional - you can keep these)
+# package-lock.json
